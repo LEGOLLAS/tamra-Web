@@ -30,7 +30,7 @@ body{
   border-bottom: 1px solid #D8D8D8;
   font-size: 15px;
   padding-left: 24px;
-  line-height: 50px;
+  line-height: 45px;
   list-style: none;
   vertical-align: middle;
 }
@@ -45,7 +45,7 @@ body{
   width: 246px;
   background-image: url('../images/left.gif');
   background-repeat: no-repeat;
-  height: 70px;
+  height: 80px;
   list-style: none
 }
 #leftTop div{
