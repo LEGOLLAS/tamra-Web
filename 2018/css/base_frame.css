@@ -1,0 +1,21 @@
+@charset "euc-kr";
+
+/* 전체 프레임 */           
+
+#DIV_ALL { width:100%; height:100% }
+
+#DIV_ALL_T, #DIV_ALL_H, #DIV_ALL_C, #DIV_ALL_F { width:100%; }
+
+
+#DIV_ALL_T { background-color:#f4f4f4; border-bottom:1px solid #e5e0e1; }
+
+#DIV_ALL_T>div { height:40px; }
+
+#DIV_ALL_H>div { height:95px; }
+
+#DIV_ALL_C { overflow:hidden; }
+
+#DIV_ALL_F { background-color:#efefef; border-top:1px solid #e5e0e1; }
+
+#DIV_ALL_F>div { height:120px; padding:10px 0px; font-weight:bold; }
+

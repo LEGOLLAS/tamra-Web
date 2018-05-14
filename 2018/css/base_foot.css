@@ -1,0 +1,11 @@
+@charset "euc-kr";
+
+/* го╢э Fead Frame */           
+
+#DIV_ALL_F>div>img { float:left; border:0px; height:70px; margin-top:10px; }
+
+#DIV_ALL_F>div>ul { float:left; list-style:none; padding:0px 0px; margin-top:20px; margin-left:20px; }
+
+#DIV_ALL_F>div>ul li { float:left; display:inline; }
+
+#DIV_ALL_F>div>div { float:right; margin-top: 40px; }

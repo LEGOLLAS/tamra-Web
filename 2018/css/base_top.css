@@ -1,0 +1,7 @@
+@charset "euc-kr";
+
+/* »ó´Ü Top Frame */           
+
+#DIV_ALL_T>div>ul { float:right; list-style:none; padding:10px 0px; }
+
+#DIV_ALL_T>div>ul>li { float:left; display:inline; padding:0px 10px; font-size:12px; font-weight:bold; }

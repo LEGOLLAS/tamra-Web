@@ -1,0 +1,7 @@
+@charset "euc-kr";
+
+/* »ó´Ü Head Frame */           
+
+#DIV_ALL_H>div>img { border:0px; height:70px; }
+
+#DIV_ALL_H>div>ul li { float:left; display:inline; padding:0px 10px 0px 20px; font-size:12px; font-weight:bold; }

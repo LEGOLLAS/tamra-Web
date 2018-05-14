@@ -1,0 +1,64 @@
+@charset "euc-kr";
+
+/* 기본 폰트 설정 */           
+
+* {padding:0px;margin:0px;}
+
+BODY {
+	text-align:left;
+	font-size:12px;
+	color:#737373;
+	line-height:20px;
+	font-family:"돋움", "굴림";
+	height:100%;
+}
+
+
+/* 기본 링크 설정 */            
+A:link 		{color: #888888; text-decoration: none;}
+A:visited   {color: #888888; text-decoration: none;}
+A:hover     {color: #27377F; text-decoration: none;}
+A:active    {color: #27377F; text-decoration: none;}
+
+
+/* H1~H6 태그에 대한 기본설정  타이틀 쪽에서 사용 */
+H1, H2, H3, H4, H5, H6 { 
+/*	background-color: #CCCCCC; */
+padding:0px 0px 5px 5px;
+}
+
+H6 {background:url(../images/common/icon01.gif) 0% 20% no-repeat; font-size: 12px; color:#6a6a6a; padding-left:18px; }
+H5 {font-size: 140%;}
+H4 {font-size: 150%;}
+H3 {font-size: 160%;}
+H2 {font-size: 180%;}
+H1 {font-size: 200%;}
+
+/* 테이블에 대한 기본설정 */                       
+TABLE {border:none;border-collapse:collapse;}
+
+CAPTION {display:none;}
+
+TH, TD {border:1px;}
+
+TH {background: #EFEFEF;}
+
+
+/* 이미지 태그에 대한 기본설정 */                 
+IMG, OBJECT, EMBED {border:0px;vertical-align: middle;}
+
+.gif24 {tmp:expression(setgif24(this));}
+
+/* 폼태그(입력박스 등)에 대한 기본 설정 */                 
+FORM {display : inline; padding:0px;}
+
+INPUT {border:1px solid #CCC;border-radius: 4px;background-color:#e9e9e9;}
+input[type=button] {padding:2px;}
+
+TEXTAREA       {
+	border-color:#dddddd; 
+	border-width:1px; 
+	border-style:solid; 
+	overflow:auto;
+}
+
